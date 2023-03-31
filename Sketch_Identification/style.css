@@ -1,0 +1,39 @@
+body{
+    background-color: midnightblue;
+
+}
+
+h1{
+    color: gold;
+    background-color: blue;
+
+}
+
+#show_sketch
+{
+    float:right;
+}
+
+canvas
+{
+    border:5px solid #fc0a83;
+    border-radius: 180px;
+    animation-name: example;
+    animation-duration: 6s;
+    margin-top: 120px;
+    animation-iteration-count: infinite;
+    
+    
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 45px #dacced;}
+    to { box-shadow: 1px 1px 45px #fc0a83;}
+}
+
+p{
+    color: cornsilk;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Delicious Handrawn', cursive;
+}
